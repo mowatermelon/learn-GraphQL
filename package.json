@@ -1,0 +1,27 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "graphql query hello world apollo demo",
+  "scripts": {
+    "start": "node apollo.js"
+  },
+  "keywords": [
+    "graphgl",
+    "express",
+    "apollo",
+    "hello world"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mowatermelon/learn-GraphQL/tree/apollo"
+  },
+  "author": "mowatermelon <neefoxmo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^1.3.6",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^3.0.2"
+  }
+}
